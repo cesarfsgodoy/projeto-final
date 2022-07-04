@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" integrity="sha256-x8PYmLKD83R9T/sYmJn1j3is/chhJdySyhet/JuHnfY=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>SC Trips - Fale Conosco</title>
+</head>
+
+
+<body class="bg-gray-100">
+  <header class="fixed w-full bg-teal-600">
+    <nav class="container mx-auto max-w-7xl px-12 flex items-center p-4 flex-wrap">
+      <!-- ---------------- HEADER LOGO ---------------- -->
+      <div class="">
+        <a href="home.html" class="p-2 mr-4 inline-flex">
+          <img src="../img/logo.png" alt="Logo SC Trips" class="h-12 w-24">
+        </a>
+      </div>
+
+      <!-- ---------------- NAV BAR ---------------- -->
+      <button class="text-white inline-flex p-3 hover:bg-teal-700 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler" data-target="#navigation">
+        <i class="material-icons">menu</i>
+      </button>
+
+      <!-- ---------------- MENU ---------------- -->
+      <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
+        <div class="lg:space-x-2 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
+
+          <a href="sobre.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 items-center justify-center hover:bg-teal-700 hover:text-white">
+            <span class="font-semibold text-lg">Sobre</span>
+          </a>
+
+          <a href="sugestoes.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 items-center justify-center hover:bg-teal-700 hover:text-white">
+            <span class="font-semibold text-lg">Sugestões</span>
+          </a>
+
+          <a href="contato.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 items-center justify-center hover:bg-teal-700 hover:text-white">
+            <span class="font-semibold text-lg">Contato</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- GAMBIARRA -->
+  <br><br><br><br>
+
+  <!-- ---------------- INTRO ---------------- -->
+  <div style="padding: 200px; background:url('../img/contato_intro_bg.jpg') no-repeat center; height:312px; width:100%; background-size:cover;">
+
+    <div class="container h-full mx-auto px-4 flex items-center justify-center">
+      <div class="items-center justify-center">
+        <div class="text-center">
+          <h2 class="text-4xl text-teal-400 font-bold inline-block border-b-4 border-teal-400 uppercase">Bora Viajar</h2>
+          <br>
+          <p class="text-white font-bold text-base inline-block pt-1">"Viajar é se aventurar, descobrir novos destinos, novas pessoas, um mundo novo."</p>
+          <br>
+          <p class="text-white font-semibold text-base inline-block pt-1">Colecione momentos, não coisas!!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------- FORM DE CONTATO ---------------- -->
+  <div class="container max-w-5xl mx-auto px-4 pt-12">
+    <div class="grid w-full grid-cols-4 grid-rows-2 gap-8 ">
+
+      <div class="col-span-2">
+        <form id="form-contato" action="">
+          <div class="pb-5">
+            <h3 class="font-bold text-teal-800 border-l-2 border-teal-800 pl-1">Fale Conosco:</h3>
+          </div>
+
+          <div>
+            <label class="ml-4 font-semibold text-teal-700" for="nome">Nome</label>
+            <input class="w-full border-2 border-teal-700 focus:outline-none focus:border-teal-600 rounded-lg px-3 py-1 text-sm text-gray-700 placeholder-gray-300 focus:ring-2 focus:ring-teal-500 focus:ring-opacity-20 transition duration-500 ease-in-out" type="text" id="nome" name="nome" rwquired>
+          </div>
+
+          <div class="mt-4">
+            <label class="ml-4 font-semibold text-teal-700" for="email">E-Mail</label>
+            <input class="w-full border-2 border-teal-700 focus:outline-none focus:border-teal-600 rounded-lg px-3 py-1 text-sm text-gray-700 placeholder-gray-300 focus:ring-2 focus:ring-teal-500 focus:ring-opacity-20 transition duration-500 ease-in-out" type="text" id="email" name="email" rwquired>
+          </div>
+
+          <div class="mt-4">
+            <label class="ml-4 font-semibold text-teal-700" for="phone">Tefelone</label>
+            <input class="w-full border-2 border-teal-700 focus:outline-none focus:border-teal-600 rounded-lg px-3 py-1 text-sm text-gray-700 placeholder-gray-300 focus:ring-2 focus:ring-teal-500 focus:ring-opacity-20 transition duration-500 ease-in-out" type="text" id="phone" name="phone" rwquired>
+          </div>
+
+          <div class="mt-4">
+            <label class="ml-4 font-semibold text-teal-700" for="message">Mensagem/Pacote Info</label>
+            <input class="w-full border-2 border-teal-700 focus:outline-none focus:border-teal-600 rounded-lg px-3 py-1 text-sm text-gray-700 placeholder-gray-300 focus:ring-2 focus:ring-teal-500 focus:ring-opacity-20 transition duration-500 ease-in-out" type="text" id="message" name="message" rwquired>
+          </div>
+
+          <div class="mt-4">
+            <button class="w-28 text-sm bg-teal-500 hover:bg-teal-600 px-6 py-2 rounded text-white shadow-md">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-span-2">
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
