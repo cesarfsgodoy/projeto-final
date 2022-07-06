@@ -55,27 +55,41 @@
 
   <!-- -------------- DROPDOWN SECTION -------------- -->
   <div class="w-full bg-white ">
-    <section class="grid grid-rows-3 items-center justify-items-center max-w-5xl mx-auto p-12 space-y-1">
-      <div>
-        <h2 class="text-center text-4xl text-teal-500 font-bold border-teal-700 border-b-4 w-full max-w-lg uppercase">Bem Vindo à SC Trips
-        </h2>
+    <section class="max-w-5xl mx-auto pt-12 space-y-1">
+      <!-- ------------- TITLE ------------- -->
+      <div class="grid grid-rows-2 items-center justify-items-center text-center">
+        <div>
+          <h2 class="text-center text-4xl text-teal-500 font-bold border-teal-700 border-b-4 w-full max-w-lg uppercase">Bem Vindo à SC Trips
+          </h2>
+        </div>
+
+        <div>
+          <p class="text-teal-600 font-light">Onde você tem a melhor oportunidade de todas para realizar seu sonho de viagem.</p>
+        </div>
       </div>
 
+      <!-- ------------- DROPDOWN ------------- -->
       <div>
-        <p class="text-teal-600">Onde você tem a melhor oportunidade de todas para realizar seu sonho de viagem.</p>
-      </div>
+        <div class="grid grid-rows-2 justify-items-center">
+          <button class="flex items-center bg-white px-12 py-2 rounded-3xl border-2 border-teal-700 focus:outline-none focus:border-teal-300 text-teal-700 placeholder-teal-300 shadow" id="menu-btn">
+            Selecione uma Região
+            <svg class="w-4 h-4 ml-2 text-teal-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path>
+            </svg>
+          </button>
 
-      <div>
-        <form action="">
-          <select class="bg-grey-50 px-16 py-2 rounded-3xl border-2 border-teal-700 focus:outline-none focus:border-teal-300 text-gray-700 text-lg placeholder-gray-300" name="" id="">
-            <option value="">Escolha um Local</option>
-            <option value="">América do Sul</option>
-            <option value="">Europa</option>
-            <option value="">América do Norte</option>
-            <option value="">Ásia</option>
-            <option value="">Oceania</option>
-          </select>
-        </form>
+          <div class="mt-12 bg-white border-2 border-teal-300 hidden flex-col rounded-3xl text-sm w-56" id="dropdown">
+            <div class="grid grid-rows-5 items-center justify-items-center text-center py-2">
+              <a href="am-nor.html" class="px-12 py-2 hover:bg-teal-300 text-teal-700 rounded-3xl">América do Norte</a>
+              <a href="am-sul.html" class="px-12 py-2 hover:bg-teal-300 text-teal-700 rounded-3xl">América do Sul</a>
+              <a href="am-cen.html" class="px-12 py-2 hover:bg-teal-300 text-teal-700 rounded-3xl">América Central</a>
+              <a href="eropa.html" class="px-12 py-2 hover:bg-teal-300 text-teal-700 rounded-3xl">Europa</a>
+              <a href="asia.html" class="px-12 py-2 hover:bg-teal-300 text-teal-700 rounded-3xl">Ásia</a>
+              <a href="oceania.html" class="px-12 py-2 hover:bg-teal-300 text-teal-700 rounded-3xl">Oceania</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   </div>
@@ -86,9 +100,24 @@
   </section>
 
   <!-- -------------- SUGEST SECTION -------------- -->
-  <section class="container max-w-5xl mx-auto px-4">
+  <div class="w-full bg-teal-700 ">
+    <section class="container max-w-5xl mx-auto px-4">
+      <div class="grid grid-cols-2 grid-rows-2">
+        <!-- IMG 1 -->
+        <div>
 
-  </section>
+        </div>
+        <!-- IMG 2 -->
+        <div>
+
+        </div>
+        <!-- IMG 3 -->
+        <div>
+
+        </div>
+      </div>
+    </section>
+  </div>
 
   <!-- -------------- CONTATO SECTION -------------- -->
   <div class="w-full bg-teal-500 ">
@@ -107,7 +136,7 @@
         <div class="flex mx-auto items-center justify-center border-l-8 border-teal-700 rounded-l-full p-4">
           <ul class="space-y-4">
             <li class="font-semibold text-white uppercase">Ta esperando o que?? Vem agendar a sua viagem com a gente!!</li>
-            <li class="font-thin text-white">Se você ja está preparado e com o sonho na ponta da língua pra ser realizado, vem falar com a gente pra ter tudo na melhor qualidade o mais rápido possível</li>
+            <li class="font-light text-white">Se você ja está preparado e com o sonho na ponta da língua pra ser realizado, vem falar com a gente pra ter tudo na melhor qualidade o mais rápido possível</li>
             <li>
               <a href="contato.html" class="text-white font-normal hover:text-teal-900 hover:underline">Clique aqui e Fale Conosco</a>
             </li>
