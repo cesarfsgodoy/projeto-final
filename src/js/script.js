@@ -11,11 +11,11 @@ $(document).ready(function () {
 });
 
 // EFEITO DO DROPDOWN --------------------------------
-window.addEventListener('DOMContentLoaded', () => {
-  const menuBtn = document.querySelector('#menu-btn')
-  const dropdown = document.querySelector('#dropdown')
+window.addEventListener("DOMContentLoaded", () => {
+  const menuBtn = document.querySelector("#menu-btn");
+  const dropdown = document.querySelector("#dropdown");
 
-  menuBtn.addEventListener('click', () => {
+  menuBtn.addEventListener("click", () => {
     /* if(dropdown.classList.contains('hidden')){
         dropdown.classList.remove('hidden');
         dropdown.classList.add('flex');
@@ -24,8 +24,16 @@ window.addEventListener('DOMContentLoaded', () => {
         dropdown.classList.add('hidden')
     } */
 
-    dropdown.classList.toggle('hidden')
-    dropdown.classList.toggle('absolute')
-  })
+    dropdown.classList.toggle("hidden");
+    dropdown.classList.toggle("absolute");
+  });
+});
 
-})
+// EFEITO DO SLIDE --------------------------------
+if (window.SimpleSlide) {
+  new SimpleSlide({
+    slide: "slide",
+    time: 5000,
+    nav: true,
+  });
+}
