@@ -32,14 +32,15 @@ body {
   transition: opacity 500ms
 }
 
+/* 
 .js [data-slide-nav] {
   display: none;
-}
+} */
 
-/* .js [data-slide-nav] {
+.js [data-slide-nav] {
   display: block;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .js [data-slide-nav] button {
@@ -57,4 +58,4 @@ body {
 
 .js [data-slide-nav] button.active {
   background: rgb(0, 190, 190)
-} */
+}
